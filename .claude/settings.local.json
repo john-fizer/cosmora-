@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "PowerShell(Start-Process \"http://localhost:3000/dashboard/chart\")",
+      "PowerShell(Start-Process \"http://localhost:3000/dashboard/chart/sun\")",
+      "Bash(node -e \"const p = require\\('./package.json'\\); console.log\\(Object.keys\\(p.dependencies\\).filter\\(k => k.includes\\('three'\\) || k.includes\\('fiber'\\) || k.includes\\('drei'\\)\\).join\\(', '\\)\\)\")",
+      "Bash(node -e \"const p = require\\('./node_modules/next/package.json'\\); console.log\\(p.version\\)\")",
+      "Bash(findstr /i \"dynamic param route\")",
+      "Bash(dir \"C:\\\\Users\\\\John\\\\Desktop\\\\cosmora\\\\node_modules\\\\next\\\\dist\\\\docs\\\\01-app\\\\02-guides\\\\\" /B 2>&1)",
+      "Bash(New-Item -ItemType File -Path \"C:\\\\Users\\\\John\\\\Desktop\\\\cosmora\\\\src\\\\app\\\\dashboard\\\\chart\\\\[planet]\\\\page.tsx\" -Force)",
+      "Bash(Out-Null)",
+      "Bash(dir \"C:\\\\Users\\\\John\\\\Desktop\\\\cosmora\\\\src\\\\components\\\\ui\")",
+      "Bash(dir \"C:\\\\Users\\\\John\\\\Desktop\\\\cosmora\\\\src\\\\app\\\\dashboard\")",
+      "Bash(dir \"C:\\\\Users\\\\John\\\\Desktop\\\\cosmora\\\\src\\\\app\\\\dashboard\\\\compatibility\")",
+      "Bash(dir \"C:\\\\Users\\\\John\\\\Desktop\\\\cosmora\\\\src\\\\app\\\\dashboard\\\\insights\")",
+      "Bash(dir \"C:\\\\Users\\\\John\\\\Desktop\\\\cosmora\\\\src\\\\app\\\\dashboard\\\\settings\")",
+      "Bash(dir \"C:\\\\Users\\\\John\\\\Desktop\\\\cosmora\\\\node_modules\\\\next\\\\dist\\\\docs\\\\01-app\")",
+      "Bash(npm run *)",
+      "Bash(echo \"Started PID: $!\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/)",
+      "Bash(chromium-cli --version)",
+      "Bash(chromium --version)",
+      "Bash(google-chrome --version)",
+      "Bash(npx playwright *)",
+      "Bash(node .claude/skills/run-cosmora/driver.mjs screenshot \"/dashboard\")",
+      "Bash(node .claude/skills/run-cosmora/driver.mjs screenshot \"http://localhost:3000/dashboard\")",
+      "Bash(gh repo *)",
+      "Bash(gh auth *)",
+      "PowerShell(Get-Content *)"
+    ]
+  }
+}
